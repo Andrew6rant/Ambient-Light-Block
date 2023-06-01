@@ -8,8 +8,7 @@
 		"Andrew6rant (Andrew Grant)"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Andrew6rant/Ambient-Light-Block"
 	},
 	"license": "MIT",
 	"icon": "assets/ambient_light_block/icon.png",
