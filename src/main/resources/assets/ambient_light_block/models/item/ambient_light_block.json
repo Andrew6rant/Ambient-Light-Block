@@ -1,0 +1,104 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ambient_light_block:item/ambient_light_00"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "light_level": 0
+      },
+      "model": "ambient_light_block:item/ambient_light_00"
+    },
+    {
+      "predicate": {
+        "light_level": 0.0625
+      },
+      "model": "ambient_light_block:item/ambient_light_01"
+    },
+    {
+      "predicate": {
+        "light_level": 0.125
+      },
+      "model": "ambient_light_block:item/ambient_light_02"
+    },
+    {
+      "predicate": {
+        "light_level": 0.1875
+      },
+      "model": "ambient_light_block:item/ambient_light_03"
+    },
+    {
+      "predicate": {
+        "light_level": 0.25
+      },
+      "model": "ambient_light_block:item/ambient_light_04"
+    },
+{
+      "predicate": {
+        "light_level": 0.3125
+      },
+      "model": "ambient_light_block:item/ambient_light_05"
+    },
+    {
+      "predicate": {
+        "light_level": 0.375
+      },
+      "model": "ambient_light_block:item/ambient_light_06"
+    },
+    {
+      "predicate": {
+        "light_level": 0.4375
+      },
+      "model": "ambient_light_block:item/ambient_light_07"
+    },
+    {
+      "predicate": {
+        "light_level": 0.5
+      },
+      "model": "ambient_light_block:item/ambient_light_08"
+    },
+    {
+      "predicate": {
+        "light_level": 0.5625
+      },
+      "model": "ambient_light_block:item/ambient_light_09"
+    },
+    {
+      "predicate": {
+        "light_level": 0.625
+      },
+      "model": "ambient_light_block:item/ambient_light_10"
+    },
+    {
+      "predicate": {
+        "light_level": 0.6875
+      },
+      "model": "ambient_light_block:item/ambient_light_11"
+    },
+    {
+      "predicate": {
+        "light_level": 0.75
+      },
+      "model": "ambient_light_block:item/ambient_light_12"
+    },
+    {
+      "predicate": {
+        "light_level": 0.8125
+      },
+      "model": "ambient_light_block:item/ambient_light_13"
+    },
+    {
+      "predicate": {
+        "light_level": 0.875
+      },
+      "model": "ambient_light_block:item/ambient_light_14"
+    },
+    {
+      "predicate": {
+        "light_level": 0.9375
+      },
+      "model": "ambient_light_block:item/ambient_light_15"
+    }
+  ]
+}

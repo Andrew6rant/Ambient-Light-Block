@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "ambient_light_block",
+	"version": "${version}",
+	"name": "Ambient Light Block",
+	"description": "Adds a light block that automatically changes based on the time of day.",
+	"authors": [
+		"Andrew6rant (Andrew Grant)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ambient_light_block/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.andrew6rant.ambientlightblock.AmbientLightBlockMod"
+		],
+		"client": [
+			"io.github.andrew6rant.ambientlightblock.AmbientLightBlockClientMod"
+		]
+	},
+	"mixins": [
+		"ambient_light_block.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

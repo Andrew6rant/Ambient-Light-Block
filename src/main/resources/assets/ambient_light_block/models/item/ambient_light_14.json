@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "ambient_light_block:item/ambient_light_14"
+  }
+}
